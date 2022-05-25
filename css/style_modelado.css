@@ -192,11 +192,7 @@ footer p{
     h4{
         margin-top: 30px;
     }
-    
-    #galeria{
-        display: none;
-    }
-
+ 
     #galeriamvl{
         display: flex;
         flex-wrap: wrap;
@@ -210,8 +206,4 @@ footer p{
     }
 }
 
-@media screen and (min-width:992px){
-    #galeriamvl{
-        display: none;
-    }
-}
+
