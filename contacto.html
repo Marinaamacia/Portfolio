@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>junglaGrafica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  	$(document).ready(function(){
+		$("button").click(function(){
+	  		$("p").hide(1000);
+		});
+ 	 });
+  </script>
+    <link rel="stylesheet" href="css/style_contacto.css">
+</head>
+
+<body>
+	<header>
+		<h1>JUNGLA GRÁFICA</h1>
+		<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<p class="txtcarousel">El logotipo es el pilar de tu marca. Un diseño profesional es fundamental.</p>
+				</div>
+				<div class="carousel-item">
+					<p class="txtcarousel">Sin diseño no hay beneficios. Enamora a primera vista</p>
+				</div>
+				<div class="carousel-item">
+					<p class="txtcarousel">Tus competidores ya están en Internet. ¿A qué estás esperando?</p>
+				</div> 
+			</div>
+		</div>
+	</header>
+
+	<div class="containter-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-3" id="menu">
+				<img id="hojasup" src="img/SVG/hoja.svg" alt="hoja">
+				<nav>
+					<ul>
+						<li><a class="desactivado" href="index.html">Inicio</a></li>
+						<li><a class="desactivado" href="portfolio.html">Portfolio</a></li>
+						<li><a id="activado"href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+				<img id="hojainf"src="img/SVG/hojainf.svg" alt="hoja">
+			</div>
+			<div class="col-sm-12 col-md-9">
+				<div class="row">
+					<div id="contenido" class="col">
+						<h2>Contacto</h2>
+						<p>Si has llegado hasta aquí es porqué estás considerando trabajar con nosotros ¡Gracias por tu interés!</p>
+							<div id="contacto">
+								<ul>
+									<li><img src="img/telephone.png" alt="telephone"> +34 96 545 22 03</li>
+									<li><img src="img/email.png" alt="email">junglagrafica@info.com</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		
+	</footer>
+</body>
+</html>
